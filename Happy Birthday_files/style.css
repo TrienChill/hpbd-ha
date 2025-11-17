@@ -62,9 +62,9 @@ body {
     background-color: #FFDAB9;
 }
 
-img {
+/* img {
     width: 100%;
-}
+} */
 
 .balloon-border {
     position: fixed;
@@ -115,4 +115,30 @@ img {
 .type-wrap {
     font-size: 25px;
     color: #C4515C;
+}
+
+
+
+img.cake-gif {
+    text-align: center;
+    margin-top: 20px;  /* khoảng cách chữ và bánh */
+    margin-bottom: 80px;
+}
+
+
+img.cake-gif {
+    width: 200px;      /* hoặc responsive */
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+@media (max-width: 768px) {
+    
+    img.cake-gif { width: 150px !important; }
+}
+
+@media (max-width: 480px) {
+    
+    img.cake-gif { width: 120px !important; }
 }
